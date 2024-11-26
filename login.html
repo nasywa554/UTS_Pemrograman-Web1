@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/images/students.png" class="img-fluid" alt="Login Image">
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-center mb-4">DeepLearnCore</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title" style="text-align: center;">Login</h3>
+                        <form id="loginForm">
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control" id="username" required>
+                                <div id="usernameError" class="text-danger mt-2" style="display:none;"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" required>
+                                <div id="passwordError" class="text-danger mt-2" style="display:none;"></div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Login</button>
+                            <p class="mt-2" style="text-align: center;">Belum punya akun? <a href="register.html">Daftar di sini</a></p>
+                        </form>
+                        <div id="loginError" class="text-danger mt-2" style="display:none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

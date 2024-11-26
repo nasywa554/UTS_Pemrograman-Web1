@@ -1,0 +1,102 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    background-color: #007bff; /* Warna navbar */
+}
+
+.navbar .nav-link {
+    color: white; /* Warna teks navbar */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #007bff; /* Warna border sesuai dengan warna primary */
+    border-radius: 8px;
+    height: 100%;
+}
+
+.card-body {
+    flex-grow: 1; /* Membuat card body mengisi ruang yang tersisa */
+}
+
+.card-title {
+    margin-bottom: 20px; /* Jarak antara judul dan form */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    position: center;
+}
+
+#loginError {
+    color: red;
+}
+
+.description-box {
+    border: 1px solid #007bff; /* Warna border kotak deskripsi */
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #e9f7ff; /* Warna latar belakang kotak deskripsi */
+    margin-top: 10px; /* Jarak atas kotak deskripsi */
+}
+
+footer {
+    background-color: #f8f9fa; /* Warna latar belakang footer */
+    padding: 10px 0; /* Padding atas dan bawah footer */
+}
+
+.welcome-text {
+    background-color: #e0f7fa; /* Warna latar belakang untuk teks selamat datang */
+    border-radius: 10px; /* Sudut membulat */
+    padding: 20px; /* Padding di dalam kotak */
+    margin-bottom: 20px; /* Jarak bawah kotak */
+}
+
+.mt-30 {
+    margin-top: 50px; /* Anda dapat menyesuaikan nilai ini sesuai kebutuhan */
+}
+
+
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.owl-nav button {
+    background: #007bff; /* Warna tombol */
+    color: white; /* Warna teks */
+    border: none; /* Hapus border */
+    padding: 10px; /* Padding tombol */
+    border-radius: 50%; /* Membuat tombol berbentuk lingkaran */
+    width: 40px; /* Lebar tombol */
+    height: 40px; /* Tinggi tombol */
+    display: flex; /* Menggunakan flex untuk pusatkan ikon */
+    align-items: center; /* Pusatkan vertikal */
+    justify-content: center; /* Pusatkan horizontal */
+    transition: 0.3s; /* Animasi saat hover */
+    outline: none; /* Menghilangkan outline saat tombol fokus */
+}
+.owl-nav button:hover {
+    background: #0056b3; /* Warna tombol saat hover */
+}
+.owl-nav button:focus {
+    outline: none; /* Menghilangkan outline saat tombol fokus */
+}
+
+.contact-form {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

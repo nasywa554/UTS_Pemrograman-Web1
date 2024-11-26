@@ -1,0 +1,8 @@
+.card {
+            display: flex;
+            flex-direction: column;
+            height: 100%; /* Memastikan semua card memiliki tinggi yang sama */
+        }
+        .card-body {
+            flex-grow: 1; /* Membuat card body mengisi ruang yang tersisa */
+        }
